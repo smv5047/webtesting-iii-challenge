@@ -28,12 +28,12 @@ The requirements are listed under the _Minimum Viable Product_ section below.
 
 Follow these steps to setup your git _fork_ and _branch_.
 
-- [ ] Fork this repository.
-- [ ] Use GitHub's website to add your project manager as collaborator on **your fork**.
-- [ ] **Clone your forked version** of the repository (**Not Lambda's**!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Commit changes to your `<firstName-lastName>` branch.
-- [ ] Push often to your branch: `git push origin <firstName-lastName>`.
+- [X] Fork this repository.
+- [X] Use GitHub's website to add your project manager as collaborator on **your fork**.
+- [X] **Clone your forked version** of the repository (**Not Lambda's**!).
+- [X] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X] Commit changes to your `<firstName-lastName>` branch.
+- [X] Push often to your branch: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -51,17 +51,19 @@ The expected/assumed behavior of the application is listed below.
 
 ### Gate
 
-- defaults to `unlocked` and `open`
+[X]- defaults to `unlocked` and `open`
 - cannot be closed or opened if it is locked
 
 ### Dashboard
 
-- shows the controls and display
+[X]- shows the controls and display
+Used Snapshot Testing
 
 ### Display Component
 
-- displays if gate is open/closed and if it is locked/unlocked
-- displays 'Closed' if the `closed` prop is `true` and 'Open' if otherwise
+[X]- displays if gate is open/closed and if it is locked/unlocked
+Used Snapshot Testing
+[X] - displays 'Closed' if the `closed` prop is `true` and 'Open' if otherwise
 - displays 'Locked' if the `locked` prop is `true` and 'Unlocked' if otherwise
 - when `locked` or `closed` use the `red-led` class
 - when `unlocked` or `open` use the `green-led` class
